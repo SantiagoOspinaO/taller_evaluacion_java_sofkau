@@ -2,8 +2,22 @@ package exerciseeighteen;
 
 import java.util.logging.Logger;
 
+/**
+ * Se crea la clase Exercise 18.
+ *
+ * @version 1.00.000 2022-06-05
+ *
+ * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+ *
+ * @since 1.00.000 2022-06-05
+ */
 public class Exercise18 {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
         Logger logger = Logger.getLogger("logger");

@@ -3,7 +3,23 @@ package exercisethree;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+/**
+ * Se crea la clase Exercise 3.
+ *
+ * @version 1.00.000 2022-06-05
+ *
+ * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+ *
+ * @since 1.00.000 2022-06-05
+ */
 public class Exercise3 {
+    /**
+     * Se crea el metodo Calculate area of circle con el objetivo de calcular el area de un circulo.
+     *
+     * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+     *
+     * @since 1.00.000 2022-06-05
+     */
     public static void calculateAreaOfCircle() {
         Logger logger = Logger.getLogger("logger");
         Scanner in = new Scanner(System.in);
@@ -18,6 +34,11 @@ public class Exercise3 {
         logger.info(result);
     }
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         calculateAreaOfCircle();
     }

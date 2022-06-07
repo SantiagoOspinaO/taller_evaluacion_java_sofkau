@@ -3,7 +3,23 @@ package exerciseeleven;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+/**
+ * Se crea la clase Exercise 11.
+ *
+ * @version 1.00.000 2022-06-05
+ *
+ * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+ *
+ * @since 1.00.000 2022-06-05
+ */
 public class Exercise11 {
+    /**
+     * Se crea el metodo Length and vowels con el objetivo de mostrar la longitud de la oracion y ademas contar las vocales.
+     *
+     * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+     *
+     * @since 1.00.000 2022-06-05
+     */
     public static void lengthAndVowels(){
         Logger logger = Logger.getLogger("logger");
         Scanner in = new Scanner(System.in);
@@ -44,6 +60,11 @@ public class Exercise11 {
         logger.info(vowelsU);
     }
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         lengthAndVowels();
     }

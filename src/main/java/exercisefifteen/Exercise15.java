@@ -3,7 +3,23 @@ package exercisefifteen;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+/**
+ * Se crea la clase Exercise 15.
+ *
+ * @version 1.00.000 2022-06-05
+ *
+ * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+ *
+ * @since 1.00.000 2022-06-05
+ */
 public class Exercise15 {
+    /**
+     * Se crea el metodo Show options con el objetivo de pintar un menu para el usuario donde unicamente sale con la opcion 8.
+     *
+     * @author Santiago Ospina Osorio - santiago.m200@outlook.es
+     *
+     * @since 1.00.000 2022-06-05
+     */
     public static void showOptions() {
         Logger logger = Logger.getLogger("logger");
         Scanner in = new Scanner(System.in);
@@ -28,6 +44,11 @@ public class Exercise15 {
         } while (option != 8);
     }
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         showOptions();
     }

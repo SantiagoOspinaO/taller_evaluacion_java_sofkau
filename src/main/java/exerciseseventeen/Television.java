@@ -1,5 +1,8 @@
 package exerciseseventeen;
 
+/**
+ * The type Television.
+ */
 public class Television extends Appliance {
 
     private static final int DEFINED_RESOLUTION = 20;
@@ -7,13 +10,30 @@ public class Television extends Appliance {
     private double resolution;
     private boolean tunerTdt;
 
+    /**
+     * Instantiates a new Television.
+     */
     public Television() {
     }
 
+    /**
+     * Instantiates a new Television.
+     *
+     * @param weight the weight
+     */
     public Television(double weight) {
         super(weight);
     }
 
+    /**
+     * Instantiates a new Television.
+     *
+     * @param color      the color
+     * @param energyUse  the energy use
+     * @param weight     the weight
+     * @param resolution the resolution
+     * @param tunerTdt   the tuner tdt
+     */
     public Television(String color, char energyUse, double weight, double resolution, boolean tunerTdt) {
         super(color, energyUse, weight);
         this.resolution = resolution;
@@ -39,10 +59,20 @@ public class Television extends Appliance {
                 '}';
     }
 
+    /**
+     * Gets resolution.
+     *
+     * @return the resolution
+     */
     public double getResolution() {
         return resolution;
     }
 
+    /**
+     * Is tuner tdt boolean.
+     *
+     * @return the boolean
+     */
     public boolean isTunerTdt() {
         return tunerTdt;
     }
